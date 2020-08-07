@@ -41,6 +41,7 @@ class Owner
   def buy_cat(name) 
    new_cat = Cat.new 
    name = new_cat.name
+   new_cat.owner = self
     cats.collect {|cats| cats += new_cat}
   end  
   
