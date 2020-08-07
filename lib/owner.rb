@@ -58,7 +58,8 @@ class Owner
     end
   end   
   
-  
+  def 
+  end
   
   
   
