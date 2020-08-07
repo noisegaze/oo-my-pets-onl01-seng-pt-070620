@@ -13,7 +13,14 @@ class Cat
   
   def save 
     @@all << self 
-  end
+  end 
+  
+  def self.all 
+    @@all 
+  end  
+  
+  
+  
   
   
   
