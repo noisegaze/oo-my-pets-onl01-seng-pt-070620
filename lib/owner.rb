@@ -40,7 +40,6 @@ class Owner
   
   def buy_cat(name) 
    new_cat = Cat.new(name,self)
-   new_cat.mood = "happy"
   end  
   
   def buy_dog(name) 
