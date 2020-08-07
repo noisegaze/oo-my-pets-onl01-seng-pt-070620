@@ -39,8 +39,7 @@ class Owner
   end
   
   def buy_cat(name) 
-    Cat.name = name 
-    Owner.name = self.name
+   Cat.initialize
     
   end  
   
