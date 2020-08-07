@@ -70,7 +70,10 @@ class Owner
   end
   
   def list_pets 
-    
+    pets = []
+    pets << dogs 
+    pets << cats 
+    pets
   end
   
   
