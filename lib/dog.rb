@@ -9,6 +9,7 @@ class Dog
     @name = name 
     @owner = owner
     @mood = "nervous"
+    save
   end
   
   
