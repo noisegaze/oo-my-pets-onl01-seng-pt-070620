@@ -12,6 +12,14 @@ class Dog
     save
   end
   
+  def 
+  end
+  
+  
+  
+  
+  
+  
   
   
 end
