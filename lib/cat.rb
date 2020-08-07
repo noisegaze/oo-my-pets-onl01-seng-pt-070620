@@ -9,6 +9,7 @@ class Cat
     @name = name 
     @owner = owner 
     @mood = "nervous"
+    save
   end
   
   def save 
